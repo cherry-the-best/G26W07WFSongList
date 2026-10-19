@@ -98,8 +98,10 @@ namespace G26W07WFSongList
                 .ToList();
 
             foreach (var song in songs)
-                listSong.Items.Add(song);
+                listSong.Items.Add(song);         //
         }
+
+    
 
         private void OnYouTube(object sender, EventArgs e)
         {
