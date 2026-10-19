@@ -50,8 +50,7 @@
             txtTitle.PlaceholderText = "제목";
             txtTitle.Size = new Size(376, 39);
             txtTitle.TabIndex = 1;
-            txtTitle.TextChanged += textBox1_TextChanged;
-            // 
+            //
             // txtArtist
             // 
             txtArtist.Location = new Point(382, 458);
